@@ -1,0 +1,77 @@
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #61e3e7, #4c7dc7); /* Gradiente de fundo mais vibrante */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    letter-spacing: 8px;
+    color: #fff; 
+}
+
+.pokeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon{
+    background-color: #ffed8a; /* Cor de fundo mais vibrante */
+    border-radius: 100px;
+    box-shadow: 0 3px 15px rgba(17, 9, 9, 0.9); 
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.imgContainer img {
+    max-width: 90%; 
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.number{
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.name{
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+}
